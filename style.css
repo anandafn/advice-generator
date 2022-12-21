@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.card-advice-container {
+  max-width: 32rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  background-color: hsl(217, 19%, 38%);
+  border-radius: 11px;
+}
+
+.card-advice {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 1.2rem;
+  justify-items: center;
+  align-items: center;
+  padding: 2.4rem 3rem;
+}
+
+.heading-advice {
+  text-transform: uppercase;
+  color: hsl(150, 100%, 66%);
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+}
+
+.dice {
+  display: block;
+}
+
+.text-advice {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.4;
+  color: hsl(193, 38%, 86%);
+}
+
+hr {
+  width: 10rem;
+}
+
+.btn-click-me {
+  display: inline-block;
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: hsl(193, 38%, 86%);
+  color: hsl(218, 23%, 16%);
+  border: none;
+  border-radius: 10px;
+}
